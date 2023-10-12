@@ -1,0 +1,128 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.top-section {
+  background-color: #1f2535;
+  color: white;
+  height: 70vh;
+  width: 65vw;
+  /* margin-left: 40px; */
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ironhack {
+  margin: 35px 35px 0px 75px;
+  height: 40px;
+  width: 40px;
+}
+.menu-top {
+  margin: 45px 75px 0px 15px;
+  height: 20px;
+  width: 20px;
+}
+
+.navbar-content {
+  margin-left: 50px;
+  text-align: left;
+  width: 30vw;
+}
+.navbar-content p{
+  font-size: 5em;
+  font-weight:900;
+  margin-bottom: 0;
+}
+.navbar-content h5{
+  font-size: 1.5em;
+  font-weight:300;
+}
+.navbar-content button{
+  padding: 20px;
+  background-color: white;
+  color: #1f2535;
+}
+.second-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: black;
+  margin-left: 20px;
+}
+.icons{
+  margin: 80px 20px 20px 20px;
+  text-align: left;
+}
+.icons p{
+  font-size: 1.2em;
+  opacity: 0.6;
+  width: 60%;
+}
